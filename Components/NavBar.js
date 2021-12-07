@@ -5,6 +5,7 @@ export default function NavBar(){
 
     return (
         <View style={styles.container}>
+            <View style={styles.spacer}></View>
             <Text style={styles.text}>Clock Time!</Text>
         </View>
     );
@@ -12,14 +13,19 @@ export default function NavBar(){
 
 const styles = StyleSheet.create({
     container: {
+        display:"flex",
+        flexDirection:"column",
         backgroundColor: '#304545',
-        paddingTop:'10%',
         height:'10%',
         width: '100%',
         justifyContent: "center",
         alignItems: "center"
     },
     text:{
+        flex:1,
         color: '#fefefe'
     },
+    spacer:{
+        flex:1,
+    }
 });
