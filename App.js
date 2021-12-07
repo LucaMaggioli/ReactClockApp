@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-        <NavBar/>
+      <NavBar/>
       <HomePage/>
       <Text style={styles.orientation}>{orientation}</Text>
     </SafeAreaView>
@@ -20,10 +20,11 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+      flex: 1,
   },
   orientation:{
-    backgroundColor: '#343ff3',
+      flex:1,
+      backgroundColor: '#343ff3',
   }
 });
 

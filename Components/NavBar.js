@@ -13,11 +13,13 @@ export default function NavBar(){
 
 const styles = StyleSheet.create({
     container: {
-        display:"flex",
+        // display:"flex",
+        flex:2,
+        // display:"flex",
         flexDirection:"column",
         backgroundColor: '#304545',
-        height:'10%',
-        width: '100%',
+        // height:'10%',
+        // width: '100%',
         justifyContent: "center",
         alignItems: "center"
     },
